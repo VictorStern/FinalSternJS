@@ -1,0 +1,52 @@
+@mixin celu {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: 840px) {
+        @content;
+    }
+}
+
+@mixin titulos {
+    text-decoration: underline;
+    color: black;
+    font-size: 30px;
+    font: bold;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@mixin botones {
+
+    background-color: rgb(0, 33, 33);
+    color: white;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 10px;
+    box-shadow: black solid;
+    font-weight: bold;
+
+
+    &:hover {
+        color: bisque;
+        background: rgb(4, 24, 4);
+        font-weight: bold;
+        border: black solid 1px;
+    }
+}
+
+@mixin formularioLabel {
+    width: 100%;
+    color: #fafafa;
+    background: rgb(19, 15, 15);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 12px 5px;
+    border: 1px solid whitesmoke;
+    font: 18px;
+}
