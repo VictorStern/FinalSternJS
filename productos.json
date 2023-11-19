@@ -176,19 +176,19 @@
   {
       "titulo": "Tijera entresacar",
       "precio": 16300,
-      "imagen": "../img/tijeras6.jpg"
+      "imagen": "img/tijeras6.jpg"
     },
     
   {
       "titulo": "Rollo white",
       "precio": 8000,
-      "imagen": "../img/rollo1.jpg"
+      "imagen": "img/rollo1.jpg"
     },
     
   {
       "titulo": "Combo sillones",
       "precio": 106000,
-      "imagen": "../img/sillon3.jpg"
+      "imagen": "img/sillon3.jpg"
     }
     
         
