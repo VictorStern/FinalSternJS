@@ -1,195 +1,195 @@
 [
-    {
-      "titulo": "Afeitadora Plateada",
-      "precio": 65000,
-      "imagenSrc": "../img/afeitadora1.jpg"
-    },
+  {
+    "titulo": "Afeitadora Plateada",
+    "precio": 65000,
+    "imagen": "../img/afeitadora1.jpg"
+  },
 
-    {
-        "titulo": "Brocha",
-        "precio": 6000,
-        "imagenSrc": "../img/brocha.jpg"
-      },
-     
-    {
-        "titulo": "Capa transparente",
-        "precio": 10000,
-        "imagenSrc": "../img/capas1.jpg"
-      },
-      
-    {
-        "titulo": "Capa barber",
-        "precio": 12000,
-        "imagenSrc": "../img/capas2.jpg"
-      },
-      
-    {
-        "titulo": "Capa beige",
-        "precio": 12000,
-        "imagenSrc": "../img/capas3.jpg"
-      },
-      
-    {
-        "titulo": "Capa yellow",
-        "precio": 14000,
-        "imagenSrc": "../img/capas4.jpg"
-      },
-      
-    {
-        "titulo": "Cepillo",
-        "precio": 7000,
-        "imagenSrc": "../img/cepillo.jpg"
-      },
-      
-    {
-        "titulo": "Cepillo ovalo",
-        "precio": 7500,
-        "imagenSrc": "../img/cepillo1.jpg"
-      },
-      
-    {
-        "titulo": "Combo Corte Whal orang",
-        "precio": 75000,
-        "imagenSrc": "../img/combo.jpg"
-      },
-      
-    {
-        "titulo": "Cortadora Wahl black",
-        "precio": 42800,
-        "imagenSrc": "../img/combo1.jpg"
-      },
-      
-    {
-        "titulo": "Tijeras rainbow",
-        "precio": 9700,
-        "imagenSrc": "../img/tijeras7.jpg"
-      },
-      
-    {
-        "titulo": "Kit corte",
-        "precio": 27300,
-        "imagenSrc": "../img/kit4.jpg"
-      },
-      
-    {
-        "titulo": "Combo Wahl plus black",
-        "precio": 83000,
-        "imagenSrc": "../img/combo10.jpg"
-      },
-      
-    {
-        "titulo": "Combo Wahl Premiun",
-        "precio": 92800,
-        "imagenSrc": "../img/combo2.jpg"
-      },
-      
-    {
-        "titulo": "Aferitadora + Patillera",
-        "precio": 56400,
-        "imagenSrc": "../img/combo4.jpg"
-      },
-      
-    {
-        "titulo": "Cortadora Wahl blue and grey",
-        "precio": 42000,
-        "imagenSrc": "../img/combo6.jpg"
-      },
-      
-    {
-        "titulo": "Cortadora Wahl eXtreme",
-        "precio": 42800,
-        "imagenSrc": "../img/combo8.jpg"
-      },
-      
-    {
-        "titulo": "Navaja Frik",
-        "precio": 12800,
-        "imagenSrc": "../img/navajas3.jpg"
-      },
-      
-    {
-        "titulo": "Navaja plateada",
-        "precio": 16600,
-        "imagenSrc": "../img/navajas1.jpg"
-      },
-      
-    {
-        "titulo": "Navaja Style Cut",
-        "precio": 17900,
-        "imagenSrc": "../img/navajas5.jpg"
-      },
-      
-    {
-        "titulo": "Rollo para Cuello black",
-        "precio": 8900,
-        "imagenSrc": "../img/rollo.jpg"
-      },
-      
-    {
-        "titulo": "Rollo para Cuello beige",
-        "precio": 8900,
-        "imagenSrc": "../img/rollo2.jpg"
-      },
-      
-    {
-        "titulo": "Set corte full",
-        "precio": 104000,
-        "imagenSrc": "../img/setprofesional.jpg"
-      },
-      
-    {
-        "titulo": "Sillon black cuero",
-        "precio": 135000,
-        "imagenSrc": "../img/sillon.jpg"
-      },
-      
-    {
-        "titulo": "Sillon white cuero",
-        "precio": 135000,
-        "imagenSrc": "../img/sillon2.jpg"
-      },
-      
-    {
-        "titulo": "Lavabo",
-        "precio": 84000,
-        "imagenSrc": "../img/sillon4.jpg"
-      },
-      
-    {
-        "titulo": "Lavabo forte",
-        "precio": 100000,
-        "imagenSrc": "../img/sillon6.jpg"
-      },
-      
-    {
-        "titulo": "Sillon Cajonera",
-        "precio": 68500,
-        "imagenSrc": "../img/asillon7.jpg"
-      },
-      
-    {
-        "titulo": "Tijeras kitx3 + bolso",
-        "precio": 275000,
-        "imagenSrc": "../img/tijeras2.jpg"
-      },
-      
-    {
-        "titulo": "Tijera entresacar",
-        "precio": 16300,
-        "imagenSrc": "../img/tijeras6.jpg"
-      },
-      
-    {
-        "titulo": "Rollo white",
-        "precio": 8000,
-        "imagenSrc": "../img/rollo1.jpg"
-      },
-      
-    {
-        "titulo": "Combo sillones",
-        "precio": 106000,
-        "imagenSrc": "../img/sillo3.jpg"
-      }
-      
-          
-  ]
+  {
+      "titulo": "Brocha",
+      "precio": 6000,
+      "imagen": "../img/brocha.jpg"
+    },
+   
+  {
+      "titulo": "Capa transparente",
+      "precio": 10000,
+      "imagen": "../img/capas1.jpg"
+    },
+    
+  {
+      "titulo": "Capa barber",
+      "precio": 12000,
+      "imagen": "../img/capas2.jpg"
+    },
+    
+  {
+      "titulo": "Capa beige",
+      "precio": 12000,
+      "imagen": "../img/capas3.jpg"
+    },
+    
+  {
+      "titulo": "Capa yellow",
+      "precio": 14000,
+      "imagen": "../img/capas4.jpg"
+    },
+    
+  {
+      "titulo": "Cepillo",
+      "precio": 7000,
+      "imagen": "../img/cepillo.jpg"
+    },
+    
+  {
+      "titulo": "Cepillo ovalo",
+      "precio": 7500,
+      "imagen": "../img/cepillo1.jpg"
+    },
+    
+  {
+      "titulo": "Combo Corte Whal orang",
+      "precio": 75000,
+      "imagen": "../img/combo.jpg"
+    },
+    
+  {
+      "titulo": "Cortadora Wahl black",
+      "precio": 42800,
+      "imagen": "../img/combo1.jpg"
+    },
+    
+  {
+      "titulo": "Tijeras rainbow",
+      "precio": 9700,
+      "imagen": "../img/tijeras7.jpg"
+    },
+    
+  {
+      "titulo": "Kit corte",
+      "precio": 27300,
+      "imagen": "../img/kit4.jpg"
+    },
+    
+  {
+      "titulo": "Combo Wahl plus black",
+      "precio": 83000,
+      "imagen": "../img/combo10.jpg"
+    },
+    
+  {
+      "titulo": "Combo Wahl Premiun",
+      "precio": 92800,
+      "imagen": "../img/combo2.jpg"
+    },
+    
+  {
+      "titulo": "Aferitadora + Patillera",
+      "precio": 56400,
+      "imagen": "../img/combo4.jpg"
+    },
+    
+  {
+      "titulo": "Cortadora Wahl blue and grey",
+      "precio": 42000,
+      "imagen": "../img/combo6.jpg"
+    },
+    
+  {
+      "titulo": "Cortadora Wahl eXtreme",
+      "precio": 42800,
+      "imagen": "../img/combo8.jpg"
+    },
+    
+  {
+      "titulo": "Navaja Frik",
+      "precio": 12800,
+      "imagen": "../img/navajas3.jpg"
+    },
+    
+  {
+      "titulo": "Navaja plateada",
+      "precio": 16600,
+      "imagen": "../img/navajas1.jpg"
+    },
+    
+  {
+      "titulo": "Navaja Style Cut",
+      "precio": 17900,
+      "imagen": "../img/navajas5.jpg"
+    },
+    
+  {
+      "titulo": "Rollo para Cuello black",
+      "precio": 8900,
+      "imagen": "../img/rollo.jpg"
+    },
+    
+  {
+      "titulo": "Rollo para Cuello beige",
+      "precio": 8900,
+      "imagen": "../img/rollo2.jpg"
+    },
+    
+  {
+      "titulo": "Set corte full",
+      "precio": 104000,
+      "imagen": "../img/setprofesional.jpg"
+    },
+    
+  {
+      "titulo": "Sillon black cuero",
+      "precio": 135000,
+      "imagen": "../img/sillon.jpg"
+    },
+    
+  {
+      "titulo": "Sillon white cuero",
+      "precio": 135000,
+      "imagen": "../img/sillon2.jpg"
+    },
+    
+  {
+      "titulo": "Lavabo",
+      "precio": 84000,
+      "imagen": "../img/sillon4.jpg"
+    },
+    
+  {
+      "titulo": "Lavabo forte",
+      "precio": 100000,
+      "imagen": "../img/sillon6.jpg"
+    },
+    
+  {
+      "titulo": "Sillon Cajonera",
+      "precio": 68500,
+      "imagen": "../img/sillon7.jpg"
+    },
+    
+  {
+      "titulo": "Tijeras kitx3 + bolso",
+      "precio": 275000,
+      "imagen": "../img/tijeras2.jpg"
+    },
+    
+  {
+      "titulo": "Tijera entresacar",
+      "precio": 16300,
+      "imagen": "../img/tijeras6.jpg"
+    },
+    
+  {
+      "titulo": "Rollo white",
+      "precio": 8000,
+      "imagen": "../img/rollo1.jpg"
+    },
+    
+  {
+      "titulo": "Combo sillones",
+      "precio": 106000,
+      "imagen": "../img/sillon3.jpg"
+    }
+    
+        
+]
