@@ -170,13 +170,13 @@
   {
       "titulo": "Tijeras kitx3 + bolso",
       "precio": 275000,
-      "imagen": "../img/tijeras2.jpg"
+      "imagen": "./img/tijeras2.jpg"
     },
     
   {
       "titulo": "Tijera entresacar",
       "precio": 16300,
-      "imagen": "img/tijeras6.jpg"
+      "imagen": "./img/tijeras6.jpg"
     },
     
   {

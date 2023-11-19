@@ -109,7 +109,7 @@ function agregarItemAlCarrito(titulo, precio, imagenSrc) {
     let itemCarritoContenido = `
     
         <div class="carrito-item">
-            <img src="${imagenSrc}" width="80px" alt="">
+            <img src="${imagen}" width="80px" alt="">
             <div class="carrito-item-detalles">
                 <span class="carrito-item-titulo">${titulo}</span>
                 <div class="selector-cantidad">
