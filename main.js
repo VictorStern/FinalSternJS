@@ -65,10 +65,10 @@ function agregarAlCarritoClicked(event) {
     let item = button.parentElement;
     let titulo = item.getElementsByClassName('titulo-item')[0].innerText;
     let precio = item.getElementsByClassName('precio-item')[0].innerText;
-    let imagenSrc = item.getElementsByClassName('img-item')[0].src;
-    console.log(imagenSrc);
+    let imagen = item.getElementsByClassName('img-item')[0].src;
+    console.log(imagen);
 
-    agregarItemAlCarrito(titulo, precio, imagenSrc);
+    agregarItemAlCarrito(titulo, precio, imagen);
 
     hacerVisibleCarrito();
 }
@@ -85,7 +85,7 @@ function hacerVisibleCarrito() {
 }
 
 //Funciòn que agrega un item al carrito
-function agregarItemAlCarrito(titulo, precio, imagenSrc) {
+function agregarItemAlCarrito(titulo, precio, imagen) {
     let item = document.createElement('div');
     item.classList.add = ('item');
     let itemsCarrito = document.getElementsByClassName('carrito-items')[0];
@@ -220,7 +220,7 @@ function cargarCarritoDesdeLocalStorage() {
         let carritoContainer = document.getElementsByClassName('carrito-items')[0];
         carritoContainer.innerHTML = '';
         for (let item of carritoItems) {
-            agregarItemAlCarrito(item.titulo, item.precio, item.imagenSrc);
+            agregarItemAlCarrito(item.titulo, item.precio, item.imagen);
         }
         actualizarTotalCarrito();
     }
@@ -234,8 +234,8 @@ function guardarCarritoEnLocalStorage() {
     for (let item of items) {
         let titulo = item.getElementsByClassName('carrito-item-titulo')[0].innerText;
         let precio = item.getElementsByClassName('carrito-item-precio')[0].innerText;
-        let imagenSrc = item.getElementsByTagName('img')[0].src;
-        carritoItems.push({ titulo, precio, imagenSrc });
+        let imagen = item.getElementsByTagName('img')[0].src;
+        carritoItems.push({ titulo, precio, imagen });
     }
     localStorage.setItem('carrito', JSON.stringify(carritoItems));
 }
