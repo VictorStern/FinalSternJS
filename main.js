@@ -20,7 +20,7 @@ function ready() {
                     <div class="item">
                         <span class="titulo-item">${producto.titulo}</span>
                         <img src="${producto.imagen}" alt="" class="img-item">
-                        <span class="precio-item">$${producto.precio.toFixed(2)}</span>
+                        <span class="precio-item">$${producto.precio.toFixed(3)}</span>
                         <button class="boton-item">Agregar al Carrito</button>
                     </div>
                 `;
@@ -235,7 +235,7 @@ function guardarCarritoEnLocalStorage() {
         let titulo = item.getElementsByClassName('carrito-item-titulo')[0].innerText;
         let precio = item.getElementsByClassName('carrito-item-precio')[0].innerText;
         let imagen = item.getElementsByTagName('img')[0].src;
-        carritoItems.push({ titulo, precio, imagen });
+        carritoItems.push({ titulo, precio, imagen});
     }
     localStorage.setItem('carrito', JSON.stringify(carritoItems));
 }
