@@ -234,6 +234,9 @@ footer p {
   text-transform: uppercase;
   text-align: center;
 }
+.img-item, .imgCarrito {
+  border-radius: 25%;
+  }
 
 .foot1 {
   width: 50px;

@@ -1,7 +1,7 @@
-// Variable que mantiene el estado visible del carrito
+// se mantiene visible el carrito
 let verCarrito = false;
 
-// Esperamos a que todos los elementos de la página cargen para ejecutar el script
+// Espero que los elementos de la página cargen para ejecutar el script
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -9,7 +9,7 @@ if (document.readyState == 'loading') {
 }
 
 function ready() {
-    // Cargar productos desde productos.json
+    // Carga productos desde productos.json
     fetch('productos.json')
         .then(response => response.json())
         .then(productos => {
@@ -109,7 +109,7 @@ function agregarItemAlCarrito(titulo, precio, imagen) {
     let itemCarritoContenido = `
     
         <div class="carrito-item">
-            <img src="${imagen}" width="80px" alt="">
+            <img src="${imagen}" class="imgCarrito" width="80px" alt="imagen del item a comprar">
             <div class="carrito-item-detalles">
                 <span class="carrito-item-titulo">${titulo}</span>
                 <div class="selector-cantidad">
@@ -127,16 +127,10 @@ function agregarItemAlCarrito(titulo, precio, imagen) {
     item.innerHTML = itemCarritoContenido;
     itemsCarrito.append(item);
 
-    //Agregamos la funcionalidad eliminar al nuevo item
-    item.getElementsByClassName('btn-eliminar')[0].addEventListener('click', eliminarItemCarrito);
-
-    //Agregmos al funcionalidad restar cantidad del nuevo item
-    let botonRestarCantidad = item.getElementsByClassName('restar-cantidad')[0];
-    botonRestarCantidad.addEventListener('click', restarCantidad);
-
-    //Agregamos la funcionalidad sumar cantidad del nuevo item
-    let botonSumarCantidad = item.getElementsByClassName('sumar-cantidad')[0];
-    botonSumarCantidad.addEventListener('click', sumarCantidad);
+    //Agregamos la funcionalidade de eliminar, restar cantidad y sumar cantidad al nuevo item.
+    item.querySelector('.btn-eliminar').addEventListener('click', eliminarItemCarrito);
+    item.querySelector('.restar-cantidad').addEventListener('click', restarCantidad);
+    item.querySelector('.sumar-cantidad').addEventListener('click', sumarCantidad);
 
     //Actualizamos total
     actualizarTotalCarrito();
